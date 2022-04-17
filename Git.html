@@ -47,8 +47,36 @@ for(var i = 0; i < vocales.length; i++){
 
 }*/
 
-function cambiarVocal(palabra){
+var input = document.querySelector('input');
+var button = document.querySelector('button');
+// var button.onclick
+// input.value = ' ';
+// input.focus();
 
+
+function cambiarVocal(texto){
+var vocales = ['a','e','i','o','u'];
+var nuevaLetra = [];
+
+for(var i = 0; i < vocales.length; i++){
+
+     if(i == vocales[0]){
+          nuevaLetra.push('ai');
+     }
+     if(i == vocales[1]){
+          nuevaLetra.push('enter');
+     }
+     if(i == vocales[2]){
+          nuevaLetra.push('imes');
+     }
+     if(i == vocales[3]){
+          nuevaLetra.push('ober');
+     }
+     if(i == vocales[4]){
+          nuevaLetra.push('ufat');
+     }
+
+}
 
 }
 

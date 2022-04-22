@@ -1,0 +1,153 @@
+#header{
+	font-size: 3em;
+	font-weight: bold;
+	width: 100%;
+	position: relative;
+	background-color: #BBBBBB;
+	padding: 0px 0px 0px 0px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+#header h1{
+	position: relative;
+	display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin: 0 0 0 35px;
+}
+
+.texto02{font-size: 3em;
+	font-weight: bold;
+	width: 100%;
+	position: relative;
+	background-color: #A545FF;
+	padding: 0px 0px 0px 0px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+.texto02 textarea{
+	width: 940px;
+	height: 200px;
+	display: inline-block;
+	margin: 0 auto;
+}
+.texto02 h3{
+	padding: 30px 20px;
+	color: blue;
+}
+#texto03{
+	font-size: 3em;
+	font-weight: bold;
+	width: 100%;
+	position: relative;
+	background-color: #54079B;
+	padding: 0px 0px 0px 0px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px 20px;
+
+
+}
+.boton1{
+	-webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    list-style: none;
+    box-sizing: inherit;
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 6px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none!important;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+    transition: background-color .3s,color .15s,box-shadow .3s,opacity 0.3s,filter 0.3s;
+    float: left!important;
+    color: #FFFFFF;
+    background-color: #4CAF50;
+    display: inline-block;
+    margin: 0 20%;
+}
+.boton1:hover{
+    color: #000000;
+}
+.boton1:active{
+    color: red;
+}
+.boton2{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    list-style: none;
+    box-sizing: inherit;
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 6px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none!important;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+    transition: background-color .3s,color .15s,box-shadow .3s,opacity 0.3s,filter 0.3s;
+    float: left!important;
+    color: #FFFFFF;
+    background-color: #4CAF50;
+    margin:0 250px;
+    display: inline-block;
+}
+.boton2:hover{
+    color: #000000;
+}
+.boton2:active{
+    color: red;
+}
+.boton3{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    list-style: none;
+    box-sizing: inherit;
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 6px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none!important;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+    transition: background-color .3s,color .15s,box-shadow .3s,opacity 0.3s,filter 0.3s;
+    float: left!important;
+    color: #FFFFFF;
+    background-color: #4CAF50;
+    margin:10px 15%;
+    display: inline-block;
+}
+.boton3:hover{
+    color: #000000;
+}
+.boton3:active{
+    color: red;
+}

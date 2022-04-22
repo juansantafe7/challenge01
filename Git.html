@@ -1,94 +1,49 @@
-<! DOCTYPE html>
-<html lang = "en">
+<!DOCTYPE html>
+<html lang = "es">
 <head>
      <meta charset = "UTF-8">
-     <title>  </title>
+     <title> Encriptador </title>
+     <link rel="stylesheet" type="text/css" href="C:\Users\Juan\Desktop\Oracle One\reset.css"> 
+     <link rel="stylesheet" type="text/css" href="styles_Git.css">
+     
 </head>
 <body>
 
-     <ul>
-         <li> </li>
-         <li> </li>
-         <li> </li>
-         <li> </li>
-     </ul>
+     <div id="header">
+          <header>
+               <button id="logo"><a href="https://app.aluracursos.com/form-one/registro/latam-general"><img src="C:\Users\Juan\Desktop\Oracle One\Logo Alura\Vector.png"></a></button><h1><em><strong>Encriptador de texto: ALURA</strong></em></h1>
+          </header>
+     </div>  
+     <div class='texto02'>
+          <h3>Mensaje Original:</h3>
+          <textarea id='mensaje'></textarea>
+            
+     </div>
+     <div class='texto02'>
+          <h3>Mensaje Encriptado/Desencriptado:</h3>
+          <textarea id="mensaje2"></textarea>
+          <button type="button" id="copiar" onclick="copiarTexto();" class="boton3">Copiar</button>
+     </div>
 
-<input/>
-<button> Copia </button>
-
- <script>
-
-/*   La letra "e" es convertida para "enter"
-     La letra "i" es convertida para "imes"
-     La letra "a" es convertida para "ai"
-     La letra "o" es convertida para "ober"
-     La letra "u" es convertida para "ufat"*/
-
-/*var vocales = ['a','e','i','o','u'];
-var nuevaLetra = [];
-
-for(var i = 0; i < vocales.length; i++){
-
-     if(i == vocales[0]){
-          nuevaLetra.push('ai');
-     }
-     if(i == vocales[1]){
-          nuevaLetra.push('enter');
-     }
-     if(i == vocales[2]){
-          nuevaLetra.push('imes');
-     }
-     if(i == vocales[3]){
-          nuevaLetra.push('ober');
-     }
-     if(i == vocales[4]){
-          nuevaLetra.push('ufat');
-     }
-
-}*/
-
-var input = document.querySelector('input');
-var button = document.querySelector('button');
-// var button.onclick
-// input.value = ' ';
-// input.focus();
+     <div id='texto03'>
 
 
-function cambiarVocal(texto){
-var vocales = ['a','e','i','o','u'];
-var nuevaLetra = [];
+          <button type="button" id="cifrar" class="boton1">Encriptar</button>
+          <button type="button" id='descifrar' class="boton2">Desencriptar</button>
+       
+     
+     </div>
 
-for(var i = 0; i < vocales.length; i++){
+    
+     
+    
 
-     if(i == vocales[0]){
-          nuevaLetra.push('ai');
-     }
-     if(i == vocales[1]){
-          nuevaLetra.push('enter');
-     }
-     if(i == vocales[2]){
-          nuevaLetra.push('imes');
-     }
-     if(i == vocales[3]){
-          nuevaLetra.push('ober');
-     }
-     if(i == vocales[4]){
-          nuevaLetra.push('ufat');
-     }
-
-}
-
-}
+     <script src="script.js"></script>
 
 
-
-
-
-
-
-
-</script>
 </body>
 </html>
+
+
 
 

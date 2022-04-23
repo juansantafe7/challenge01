@@ -81,6 +81,20 @@ function cifrar(texto) {
 		return resultado;
 }
 */
+
+/*para la desencriptación aplico la función descifrar y paso como parámetro texto
+creo una variable que contenga una cadena vacía la cual será retornada al final.
+Aplico un bucle for con variable j, que itera sobre la longitud del parámetro texto
+Luego utilizo la declaración switch que evalúa la expresión (texto[j]) y la compara
+con las instancias case para cada vocal. Aplico un if dentro de case 'e' y en caso
+que la longitud (cuyo caracter inicial sea e) tenga como caracter final 'r' 
+(propia de la encriptación... e -> 'enter'), añado la vocal 'e' a la cadena vacía
+de la variable var r = '', caso contrario retorno falso. Aplico case para el resto
+de las vocales (respetando la longitud y el caracter final).
+En el caso que el parámetro no coincida con alguno de los case del swtich,
+por defecto, incoporaremos esos valores a la cadena de la varibale r tal cual estén
+originalmente.
+Por último retornamos r con los cambios aplicados a las vocales.  */
 function descifrar(texto) {
   var r = '';
   for (var j = 0; j < texto.length;j++) {
